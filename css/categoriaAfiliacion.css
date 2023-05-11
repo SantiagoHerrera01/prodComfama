@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 15rem;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    align-items: center;
+}
+
+
+#tittle__txt{
+    text-align: center;
+    font-size: 42px;
+    padding: 5vw ;
+    
+}
+
+
+#tittle__txt::before{
+content: '';
+display: inline-block;
+align-items: center;
+width: 5px;
+height: 20px;
+background-color: #EE2B7B;
+margin: 0.3vw;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 22px;
+    width: 100%;
+}
+
+.container .container__tarifa{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.container .container__txt{
+    padding: 1vw 1.5vw;
+    width: 32%;
+    font-size: 24px; 
+}
+
+.container .container__info{
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #2B2B2B;
+    color: white;
+    padding: 0 3vw;
+    width: 68%;
+    align-items: center;
+}
+
+
+.container__info::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50%-5px);
+    left: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: #2B2B2B;
+    transform: rotate(45deg);
+}
+
+
+
+@media screen and (min-width:360px) and (max-width:1080px){
+    #tittle__txt{
+        text-align: center;
+        font-size: 34px;
+        padding: 5vw ;
+        align-content: center;
+    }    
+    
+    .section{
+        margin: 0 auto;
+        padding: 0;
+        max-width: 400px;
+
+    }
+
+    .container .container__tarifa{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .container .container__txt{
+        padding: 0 2%;
+        width: 45%;
+        font-size: 24px; 
+    }
+
+    .container .container__info{
+        display:flex;
+        justify-content: space-between;
+        background-color: #2B2B2B;
+        color: white;
+        padding: 2vw 3vw;
+        width: 55%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:359px){
+    .section{
+        margin: 0 auto;
+        padding: 0;
+        max-width: 200px;
+        border: #EE2B7B 1px solid;
+    }
+
+    #tittle__txt{
+        text-align: center;
+        font-size: 22px;
+        padding: 5vw ;
+        align-content: center;
+    }
+
+
+   .container .container__txt{
+    padding: 0 2%;
+    width: 45%;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+   }
+
+   .container .container__info{
+    display:flex;
+    justify-content: space-between;
+    background-color: #2B2B2B;
+    color: white;
+    padding: 2vw 4vw;
+    width: 55%;
+    align-items: center;
+    font-size: 14px;
+}
+}
+    
+
+
+

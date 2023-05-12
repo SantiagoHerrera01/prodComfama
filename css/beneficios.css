@@ -1,0 +1,150 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#beneficios{
+    width: 100%;
+    height: 60%;
+}
+
+.beneficios__title{
+    text-align: left;
+    font: normal normal bold 32px/38px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 13%;
+}
+
+.beneficios__scroll--section{
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.beneficios__scroll--conteiner{
+    height: 80%;
+    width: 23.1%;
+    margin-left: 1.5%;
+    white-space: pre-line;
+    display: inline-block;
+}
+
+.beneficios--container{
+    background-color: #F6F7FD;
+    width: 100%;
+    height: 120px;
+}
+
+.beneficios--container img{
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+.beneficios__container--text{
+    width: 100%;
+    height: 200px;
+}
+
+.beneficios__container--text p{
+    text-align: justify;
+    display: flex;  
+}
+
+.beneficios__container--title{
+    width: 100%;
+    font: normal normal bold 20px/24px Roboto;
+    color: #000000;
+}
+  
+.beneficios__container-label{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    font: normal normal normal 16px/22px;
+    letter-spacing: 0px;
+    color: #EE2B7B;
+    opacity: 1;
+}
+
+.beneficios__container-label--black {
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: -18px;
+    font:  14px/19px Roboto;
+}
+
+.beneficios__container--text a{
+    width: 100px;
+    height: 10%;
+    color: #EE2B7B;
+}
+
+#left {
+    right: 50px;
+    margin-right: 15%;
+}
+  
+#right {
+    right: 10px;
+    margin-right: 11%;
+}
+  
+button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+button.beneficios__button{
+    opacity: 0.3;
+}
+/*Responsive Diseño
+
+/*laptop*/
+@media screen and (max-width: 1002px
+ ) {
+    .beneficios__scroll--conteiner{
+        width: 30%;
+    }
+
+}
+
+/*tablet*/
+@media screen and (max-width: 768px
+ ) {
+    .beneficios__scroll--conteiner{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 585px
+ ) {
+    .beneficios__scroll--conteiner{
+        width: 48%;
+    }
+}
+
+/* pantalla pequeña */
+
+@media screen and (max-width: 426px
+ ) {
+    .beneficios__scroll--conteiner{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 342px
+ ) {
+    .beneficios__scroll--conteiner{
+        width: 90%;
+    }
+}

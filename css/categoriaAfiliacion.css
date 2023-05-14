@@ -1,8 +1,11 @@
 
+
+
 .section{
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 15rem;
+    max-width: 1200px;
+    padding: 0 10rem;
+    position: relative;
 }
 
 body{
@@ -12,43 +15,42 @@ body{
 }
 
 
-#tittle__txt{
+.title{
+    font-size: 2rem;
+}
+
+.title--center{
     text-align: center;
-    font-size: 42px;
-    padding: 5vw ;
-    
 }
 
 
-#tittle__txt::before{
+.title::before{
 content: '';
 display: inline-block;
-align-items: center;
 width: 5px;
 height: 20px;
-background-color: #EE2B7B;
-margin: 0.3vw;
+background-color: #EE2B7B;;
 }
 
-.container{
+.rates{
     display: flex;
     margin-bottom: 22px;
     width: 100%;
 }
 
-.container .container__tarifa{
+.rates__space{
     display: flex;
     border: 1px solid black;
     width: 100%;
 }
 
-.container .container__txt{
+.rates__txt{
     padding: 1vw 1.5vw;
     width: 32%;
     font-size: 24px; 
 }
 
-.container .container__info{
+.rates__info{
     display:flex;
     position: relative;
     justify-content: space-between;
@@ -60,7 +62,7 @@ margin: 0.3vw;
 }
 
 
-.container__info::before{
+.rates__info::before{
     content: '';
     display: block;
     position: absolute;
@@ -74,7 +76,7 @@ margin: 0.3vw;
 
 
 
-@media screen and (min-width:360px) and (max-width:1080px){
+@media screen and (max-width:767px){
     #tittle__txt{
         text-align: center;
         font-size: 34px;
@@ -85,23 +87,24 @@ margin: 0.3vw;
     .section{
         margin: 0 auto;
         padding: 0;
-        max-width: 400px;
+        max-width: 700px;
+        border: #EE2B7B solid;
 
     }
 
-    .container .container__tarifa{
+    .rates__space{
         display: flex;
         width: 100%;
         align-items: center;
     }
 
-    .container .container__txt{
+    .rates__txt{
         padding: 0 2%;
         width: 45%;
         font-size: 24px; 
     }
 
-    .container .container__info{
+    .rates__info{
         display:flex;
         justify-content: space-between;
         background-color: #2B2B2B;
@@ -112,11 +115,12 @@ margin: 0.3vw;
     }
 }
 
-@media screen and (max-width:359px){
+@media screen and (max-width:991px){
     .section{
         margin: 0 auto;
         padding: 0;
-        max-width: 200px;
+        max-width: 800px;
+        border: 1px #EE2B7B solid;
     }
 
     #tittle__txt{
@@ -127,7 +131,7 @@ margin: 0.3vw;
     }
 
 
-   .container .container__txt{
+   .rates__txt{
     padding: 0 2%;
     width: 45%;
     font-size: 16px; 
@@ -135,7 +139,7 @@ margin: 0.3vw;
     align-items: center;
    }
 
-   .container .container__info{
+   .rates__info{
     display:flex;
     justify-content: space-between;
     background-color: #2B2B2B;
@@ -146,7 +150,4 @@ margin: 0.3vw;
     font-size: 14px;
 }
 }
-    
-
-
 

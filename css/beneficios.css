@@ -1,30 +1,19 @@
+*{
+    margin: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 
-#beneficios{
-    width: 100%;
-    height: 60%;
-}
-
-.beneficios__title{
-    text-align: left;
-    font: normal normal bold 32px/38px Roboto;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    margin-left: 13%;
-}
-
-.beneficios__scroll--section{
+.cardsSlider__carousel{
     margin-top: 3%;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
     overflow-x: hidden;
     white-space: nowrap;
 }
 
-.beneficios__scroll--conteiner{
+.card{
     height: 80%;
     width: 23.1%;
     margin-left: 1.5%;
@@ -32,34 +21,34 @@ body{
     display: inline-block;
 }
 
-.beneficios--container{
+.card__img{
     background-color: #F6F7FD;
     width: 100%;
     height: 120px;
 }
 
-.beneficios--container img{
+.card__img img{
     margin-left: 35%;
     margin-top: 1%;
 }
 
-.beneficios__container--text{
+.card__info{
     width: 100%;
     height: 200px;
 }
 
-.beneficios__container--text p{
+.card__info p{
     text-align: justify;
     display: flex;  
 }
 
-.beneficios__container--title{
+.card__title{
     width: 100%;
     font: normal normal bold 20px/24px Roboto;
     color: #000000;
 }
   
-.beneficios__container-label{
+.card__label{
     margin-top: 10px;
     width: 100%;
     text-align: left;
@@ -69,42 +58,44 @@ body{
     opacity: 1;
 }
 
-.beneficios__container-label--black {
+.card__txt {
     width: 100%;
     margin-top: -25px;
     margin-bottom: -18px;
     font:  14px/19px Roboto;
 }
 
-.beneficios__container--text a{
+.card__link{
     width: 100px;
     height: 10%;
     color: #EE2B7B;
 }
 
-#left {
-    right: 50px;
-    margin-right: 15%;
+.cardsSlider__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-  
-#right {
-    right: 10px;
-    margin-right: 11%;
-}
-  
-button{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 10px;
-    border-radius: 60%;
-    border-style: solid;
-    border-width: 0.5px;
-    background-color: transparent;
-    opacity: 1;
+ 
+
+.cardsSlider__btnsContainer{
+top: 0;
+right: 0;
+display: flex;
+gap: 1rem;
 }
 
-button.beneficios__button{
+.btnCircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    border: solid 0.5px black;
+    background-color: transparent;
+    display: block;
+    
+}
+
+.btnCircle--inactive{
     opacity: 0.3;
 }
 /*Responsive Diseño

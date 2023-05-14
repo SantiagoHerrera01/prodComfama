@@ -1,15 +1,15 @@
 const buttonRight = document.getElementById('right');
 const buttonLeft = document.getElementById('left');
-const scrollSection = document.querySelector('.beneficios__scroll--section');
+const scrollSection = document.querySelector('.cardsSlider__carousel');
 
 buttonRight.addEventListener('click', () => {
   scrollSection.scrollBy({
     left: 250,
     behavior: 'smooth'
   });
-  buttonRight.classList.add("beneficios__button");
+  buttonRight.classList.add("btnCircle--inactive");
 
-  buttonLeft.classList.remove("beneficios__button");
+  buttonLeft.classList.remove("btnCircle--inactive");
 });
 
 buttonLeft.addEventListener('click', () => {
@@ -17,10 +17,10 @@ buttonLeft.addEventListener('click', () => {
     left: -250,
     behavior: 'smooth'
   });
-  buttonLeft.classList.add("beneficios__button");
+  buttonLeft.classList.add("btnCircle--inactive");
 
 
-  buttonRight.classList.remove("beneficios__button");
+  buttonRight.classList.remove("btnCircle--inactive");
 });
 
 

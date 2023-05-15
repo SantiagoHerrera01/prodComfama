@@ -4,13 +4,13 @@
 }
 
 body{
-    background: #E0F2F2;
+    
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .headerOne{
+  background: #E0F2F2;
   align-items: center;
-  margin:0  10.5%;
   text-align:left;
   margin-top: 50px;  
 }

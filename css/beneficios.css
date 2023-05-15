@@ -91,7 +91,7 @@ gap: 1rem;
     border-radius: 99px;
     border: solid 0.5px black;
     background-color: transparent;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -103,8 +103,8 @@ gap: 1rem;
 /*laptop*/
 @media screen and (max-width: 1002px
  ) {
-    .beneficios__scroll--conteiner{
-        width: 30%;
+    .cardsSlider__carousel{
+        width: 100%;
     }
 
 }
@@ -112,15 +112,15 @@ gap: 1rem;
 /*tablet*/
 @media screen and (max-width: 768px
  ) {
-    .beneficios__scroll--conteiner{
-        width: 40%;
+    .cardsSlider__carousel{
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 585px
  ) {
-    .beneficios__scroll--conteiner{
-        width: 48%;
+    .cardsSlider__carousel{
+        width: 100%;
     }
 }
 
@@ -128,14 +128,14 @@ gap: 1rem;
 
 @media screen and (max-width: 426px
  ) {
-    .beneficios__scroll--conteiner{
-        width: 70%;
+    .cardsSlider__carousel{
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 342px
  ) {
-    .beneficios__scroll--conteiner{
-        width: 90%;
+    .cardsSlider__carousel{
+        width: 100%;
     }
 }

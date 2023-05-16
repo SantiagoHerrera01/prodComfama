@@ -1,9 +1,12 @@
 
 
 
+
+
+
 .section{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 80%;
     padding: 0 10rem;
     position: relative;
 }
@@ -87,8 +90,6 @@ background-color: #EE2B7B;;
     .section{
         margin: 0 auto;
         padding: 0;
-        max-width: 700px;
-        border: #EE2B7B solid;
 
     }
 
@@ -119,8 +120,6 @@ background-color: #EE2B7B;;
     .section{
         margin: 0 auto;
         padding: 0;
-        max-width: 800px;
-        border: 1px #EE2B7B solid;
     }
 
     #tittle__txt{
@@ -150,4 +149,3 @@ background-color: #EE2B7B;;
     font-size: 14px;
 }
 }
-

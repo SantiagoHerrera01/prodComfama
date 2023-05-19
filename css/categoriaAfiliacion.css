@@ -27,7 +27,7 @@ content: '';
 display: inline-block;
 width: 5px;
 height: 20px;
-background-color: #EE2B7B;;
+background-color: #EE2B7B;
 }
 
 .rates{
@@ -75,7 +75,7 @@ background-color: #EE2B7B;;
 
 
 @media screen and (max-width:767px){
-    #tittle__txt{
+    .title{
         text-align: center;
         font-size: 34px;
         padding: 5vw ;
@@ -117,7 +117,7 @@ background-color: #EE2B7B;;
         padding: 0;
     }
 
-    #tittle__txt{
+    .title{
         text-align: center;
         font-size: 22px;
         padding: 5vw ;

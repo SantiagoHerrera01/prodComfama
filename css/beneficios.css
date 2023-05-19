@@ -1,6 +1,3 @@
-*{
-    margin: 0;
-}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -78,7 +75,7 @@ body{
 }
  
 
-.cardsSlider__btnsContainer{
+.cardsSlider__btnsrates{
 top: 0;
 right: 0;
 display: flex;
@@ -103,8 +100,8 @@ gap: 1rem;
 /*laptop*/
 @media screen and (max-width: 1002px
  ) {
-    .cardsSlider__carousel{
-        width: 100%;
+    .card{
+        width: 23.1%;
     }
 
 }
@@ -112,15 +109,15 @@ gap: 1rem;
 /*tablet*/
 @media screen and (max-width: 768px
  ) {
-    .cardsSlider__carousel{
-        width: 100%;
+    .card{
+        width: 40%;
     }
 }
 
 @media screen and (max-width: 585px
  ) {
-    .cardsSlider__carousel{
-        width: 100%;
+    .card{
+        width: 48%;
     }
 }
 
@@ -128,14 +125,17 @@ gap: 1rem;
 
 @media screen and (max-width: 426px
  ) {
-    .cardsSlider__carousel{
-        width: 100%;
+    .card{
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 342px
  ) {
-    .cardsSlider__carousel{
-        width: 100%;
+    .cardsSlider__header{
+        display: block;
     }
-}
+    .card{
+        width: 90%;
+    }
+ }

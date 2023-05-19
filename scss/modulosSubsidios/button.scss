@@ -1,0 +1,17 @@
+@import './variablesSubsidios';
+.button{
+    padding: 10px 10px;
+    width: 47%;
+    background-color:#EE2B7B;
+    color: #fff;
+    border: 1px solid #EE2B7B;
+    cursor: pointer;
+    margin:0 2px;
+    &:hover{
+        background-color: #ce6e9edc;
+    }
+    &--outline{
+        background-color:#E0F2F2 ;
+        color: #EE2B7B;
+    } 
+}  

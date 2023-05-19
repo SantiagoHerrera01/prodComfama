@@ -1,0 +1,13 @@
+@import'./variablesSubsidios';
+.headerOne{
+    align-items: center;
+    padding-top: 5px;
+    text-align:left;
+    background: $secondary-color;
+    height: 400px;
+    &__breadcums{
+        color: #737373;
+        font-size: 13px;
+        margin: 30px;
+    }
+}

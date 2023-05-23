@@ -12,15 +12,15 @@
   text-align: center;
 }
 @media (max-width: 767px) {
-  .title .title {
+  .title {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 5vw;
     align-content: center;
   }
 }
 @media (max-width: 991px) {
-  .title .title {
+  .title {
     text-align: center;
     padding: 5vw;
     align-content: center;

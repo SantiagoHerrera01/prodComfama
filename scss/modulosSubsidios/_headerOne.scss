@@ -10,4 +10,18 @@
         font-size: 13px;
         margin: 30px;
     }
+    @media (max-width: 768px) {
+        .headerOne{
+          margin: 0;
+          padding: 10px;
+          &__breadcums{
+            margin: 0 5%;
+          }
+        }
+    }
+    @media (min-width: 1440px) {
+        .headerOne__breadcums {
+          margin: 0 15%;
+        }
+    }
 }

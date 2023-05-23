@@ -1,0 +1,16 @@
+.button {
+  padding: 10px 10px;
+  width: 47%;
+  background-color: #EE2B7B;
+  color: #fff;
+  border: 1px solid #EE2B7B;
+  cursor: pointer;
+  margin: 0 2px;
+}
+.button:hover {
+  background-color: rgba(206, 110, 158, 0.862745098);
+}
+.button--outline {
+  background-color: #E0F2F2;
+  color: #EE2B7B;
+}/*# sourceMappingURL=button.css.map */

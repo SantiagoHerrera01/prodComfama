@@ -1,0 +1,28 @@
+.title {
+  font-size: 2rem;
+}
+.title::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 20px;
+  background-color: #EE2B7B;
+}
+.title--center {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .title .title {
+    text-align: center;
+    font-size: 30px;
+    padding: 5vw;
+    align-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .title .title {
+    text-align: center;
+    padding: 5vw;
+    align-content: center;
+  }
+}/*# sourceMappingURL=title.css.map */

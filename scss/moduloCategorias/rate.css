@@ -1,50 +1,3 @@
-.section {
-  margin: 0 auto;
-  padding: 0 10rem;
-  position: relative;
-}
-@media (max-width: 767px) {
-  .section {
-    margin: 0 auto;
-    padding: 0;
-  }
-}
-@media (max-width: 991px) {
-  .section {
-    margin: 0 auto;
-    padding: 0;
-  }
-}
-
-.title {
-  font-size: 2rem;
-}
-.title::before {
-  content: "";
-  display: inline-block;
-  width: 5px;
-  height: 20px;
-  background-color: #EE2B7B;
-}
-.title--center {
-  text-align: center;
-}
-@media (max-width: 767px) {
-  .title .title {
-    text-align: center;
-    font-size: 30px;
-    padding: 5vw;
-    align-content: center;
-  }
-}
-@media (max-width: 991px) {
-  .title .title {
-    text-align: center;
-    padding: 5vw;
-    align-content: center;
-  }
-}
-
 .rate {
   display: flex;
   margin-bottom: 22px;
@@ -126,4 +79,4 @@
   height: 15px;
   background-color: #2B2B2B;
   transform: rotate(45deg);
-}/*# sourceMappingURL=categoriaAfiiados.css.map */
+}/*# sourceMappingURL=rate.css.map */

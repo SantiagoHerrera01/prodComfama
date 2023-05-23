@@ -1,7 +1,7 @@
-*{
+/* *{
   margin:0;
   padding:0;
-}
+} */
 
 body{
 
@@ -13,7 +13,7 @@ body{
   align-items: center;
   padding-top: 5px;
   text-align:left;
-  margin-top: 20px;  
+
   background: #E0F2F2;
   height: 400px;
 }
@@ -29,12 +29,12 @@ body{
   align-items: center;
   margin: 30px;
   justify-content: space-between;
-
+  height: 300px;
 }
 
 .sub__content {
   width: 60%;
-  height: 200px;
+  height: 250px;
   text-align:left;
 }
 
@@ -47,10 +47,10 @@ body{
 .sub__description {
   font-size: 19px;
   color:#2B2B2B; 
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 
-.sub__button {
+.button {
   padding: 10px 10px;
   width: 45%;
   border: none;
@@ -58,20 +58,21 @@ body{
   color: #fff;
   cursor: pointer;
   margin:0 5px;
-}
-
-.sub__button.sub__button--check {
-  background-color:#E0F2F2 ;
-  color: #EE2B7B;
   border: 1px solid #EE2B7B;
 }
 
-.sub__button--apply:hover {
+.button.button--outline {
+  background-color:#E0F2F2 ;
+  color: #EE2B7B;
+  
+}
+
+.button:hover {
   background-color:#ce6e9edc;
   color: white;
 }
 
-.sub__button--check:hover {
+.button--outline:hover {
   background-color: #EE2B7B;
   color: white;
 }
@@ -114,11 +115,11 @@ body{
     font-size: 15px;
   }
   
-  .sub__button {
+  .button {
     font-size: 10px;
     padding: 10px;
     width: 80%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
   }
 
   .sub__image{
@@ -141,6 +142,9 @@ body{
   
   .sub__description {
     font-size: 20px;
+  }
+  .button{
+    width: 47%;
   }
 
 }

@@ -1,0 +1,17 @@
+.section {
+  margin: 0 auto;
+  padding: 0 10rem;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .section {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media (max-width: 991px) {
+  .section {
+    margin: 0 auto;
+    padding: 0;
+  }
+}/*# sourceMappingURL=section.css.map */

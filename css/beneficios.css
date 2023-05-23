@@ -1,141 +1,104 @@
-
-body{
-    font-family: 'Roboto', sans-serif;
+.btnCircle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 99px;
+  border: solid 0.5px black;
+  background-color: transparent;
+  gap: 1;
+}
+.btnCircle--inactive {
+  opacity: 0.3;
 }
 
-.cardsSlider__carousel{
-    margin-top: 3%;
-    width: 100%;
-    overflow-x: hidden;
-    white-space: nowrap;
+.card {
+  height: 80%;
+  width: 23.1%;
+  margin-left: 1.5%;
+  white-space: pre-line;
+  display: inline-block;
 }
-
-.card{
-    height: 80%;
-    width: 23.1%;
-    margin-left: 1.5%;
-    white-space: pre-line;
-    display: inline-block;
+.card__img {
+  background-color: #F6F7FD;
+  width: 100%;
+  height: 120px;
 }
-
-.card__img{
-    background-color: #F6F7FD;
-    width: 100%;
-    height: 120px;
+.card__img img {
+  margin-left: 35%;
+  margin-top: 1%;
 }
-
-.card__img img{
-    margin-left: 35%;
-    margin-top: 1%;
+.card__info {
+  width: 100%;
+  height: 200px;
 }
-
-.card__info{
-    width: 100%;
-    height: 200px;
+.card__info p {
+  text-align: justify;
+  display: flex;
 }
-
-.card__info p{
-    text-align: justify;
-    display: flex;  
+.card__title {
+  width: 100%;
+  font: normal normal bold 20px/24px Roboto;
+  color: #000000;
 }
-
-.card__title{
-    width: 100%;
-    font: normal normal bold 20px/24px Roboto;
-    color: #000000;
+.card__label {
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  text-align: left;
+  font: normal normal normal 16px/22px;
+  letter-spacing: 0px;
+  color: #EE2B7B;
+  opacity: 1;
 }
-  
-.card__label{
-    margin-top: 10px;
-    width: 100%;
-    text-align: left;
-    font: normal normal normal 16px/22px;
-    letter-spacing: 0px;
-    color: #EE2B7B;
-    opacity: 1;
-}
-
 .card__txt {
-    width: 100%;
-    margin-top: -25px;
-    margin-bottom: -18px;
-    font:  14px/19px Roboto;
+  width: 100%;
+  margin-top: -25px;
+  margin-bottom: -18px;
+  font: 14px/19px Roboto;
+}
+.card__link {
+  width: 100px;
+  height: 10%;
+  color: #EE2B7B;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 342px) {
+  .card {
+    width: 90%;
+  }
 }
 
-.card__link{
-    width: 100px;
-    height: 10%;
-    color: #EE2B7B;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.cardsSlider__header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.cardsSlider__carousel {
+  margin-top: 3%;
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
- 
-
-.cardsSlider__btnsrates{
-top: 0;
-right: 0;
-display: flex;
-gap: 1rem;
+.cardsSlider__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.btnCircle{
-    width: 40px;
-    height: 40px;
-    border-radius: 99px;
-    border: solid 0.5px black;
-    background-color: transparent;
-    display: inline-block;
-    
+@media screen and (max-width: 342px) {
+  .cardsSlider__header {
+    display: block;
+  }
 }
-
-.btnCircle--inactive{
-    opacity: 0.3;
-}
-/*Responsive Diseño
-
-/*laptop*/
-@media screen and (max-width: 1002px
- ) {
-    .card{
-        width: 23.1%;
-    }
-
-}
-
-/*tablet*/
-@media screen and (max-width: 768px
- ) {
-    .card{
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 585px
- ) {
-    .card{
-        width: 48%;
-    }
-}
-
-/* pantalla pequeña */
-
-@media screen and (max-width: 426px
- ) {
-    .card{
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 342px
- ) {
-    .cardsSlider__header{
-        display: block;
-    }
-    .card{
-        width: 90%;
-    }
- }
+.cardsSliderbtnsrates {
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 1rem;
+}/*# sourceMappingURL=beneficios.css.map */

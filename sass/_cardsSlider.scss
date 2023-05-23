@@ -1,0 +1,29 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+.cardsSlider{
+  &__carousel{
+    margin-top: 3%;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+  &__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 342px
+    ) {
+          display: block;
+  }
+
+}
+  &btnsrates{
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 1rem;
+  }
+}

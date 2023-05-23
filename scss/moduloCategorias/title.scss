@@ -1,0 +1,30 @@
+@import'../variables';
+
+.title{
+    font-size: 2rem;
+    &::before{
+        content: '';
+        display: inline-block;
+        width: 5px;
+        height: 20px;
+        background-color: $primary-color;
+    }
+    &--center{
+        text-align: center;
+    }
+    @media (max-width:767px) {
+        
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 5vw ;
+        align-content: center;
+          
+    }
+
+    @media (max-width: 991px) {
+        text-align: center;
+        padding: 5vw;
+        align-content: center;        
+    }
+}
+

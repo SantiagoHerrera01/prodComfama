@@ -5,17 +5,10 @@
   color: #fff;
   border: 1px solid #EE2B7B;
   cursor: pointer;
-  margin: 0 2px;
-}
-.button:hover {
-  background-color: rgba(206, 110, 158, 0.862745098);
-}
-.button--outline {
-  background-color: #E0F2F2;
-  color: #EE2B7B;
+  margin: 2px;
 }
 @media (max-width: 768px) {
-  .button .button {
+  .button {
     font-size: 10px;
     padding: 10px;
     width: 80%;
@@ -23,7 +16,14 @@
   }
 }
 @media (min-width: 1440px) {
-  .button .button {
+  .button {
     font-size: 10px;
   }
+}
+.button:hover {
+  background-color: rgba(206, 110, 158, 0.862745098);
+}
+.button--outline {
+  background-color: #E0F2F2;
+  color: #EE2B7B;
 }/*# sourceMappingURL=button.css.map */

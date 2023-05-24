@@ -1,0 +1,27 @@
+@import'../variables.scss';
+
+.headerOne{
+    align-items: center;
+    padding-top: 5px;
+    text-align:left;
+    background: $secondary-color;
+    height: 400px;
+
+    @media (max-width: 768px) {
+      margin: 0;
+      padding: 10px;
+      &__breadcums{
+        margin: 0 5%;
+      }
+    }
+
+    &__breadcums{
+      color: #737373;
+      font-size: 13px;
+      margin: 20px;
+
+    @media (min-width: 1440px) {
+        margin: 0 15%;
+    }
+  }
+}
